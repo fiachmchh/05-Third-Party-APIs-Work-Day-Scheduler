@@ -2,6 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #546e7a;
+  color: #f7f7f7;
 }
 
 textarea{
@@ -19,6 +21,19 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+/* .container {
+  width: 80%;
+  margin: 100px auto;
+  box-shadow: 0 0 3px rgba(red, green, blue, alpha);
+
+} */
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .description{

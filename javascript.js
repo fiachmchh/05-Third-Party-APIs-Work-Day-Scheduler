@@ -8,7 +8,7 @@ https://moment.github.io/luxon/
 //VARIABLES
 
 //CODE USING LUXON THAT DISPLAYS CURRENT DAY AND DATE TARGETING id="currentDay"
-
+var DateTime = ''
 var now = luxon.DateTime.local();
 {
     console.log(now.toString());
@@ -28,7 +28,7 @@ $('#9-input').val(localStorage.getItem("9"))
 
 
 for (var i = 9; i < 17; i++){
-    if (i> 12) {
+    if (i > 12) {
         console.log('Time:', i - 12)
         var num = i - 12
         $('#' + num + '-input').val(localStorage.getItem(num))
@@ -52,7 +52,6 @@ if(currentHour === timeBlock) {
       console.log('timeblock in the future')
       $('#' + i + '-row').addClass('future')
   }
-  
 }
 
 
