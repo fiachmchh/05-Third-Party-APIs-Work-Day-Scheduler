@@ -23,13 +23,6 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-/* .container {
-  width: 80%;
-  margin: 100px auto;
-  box-shadow: 0 0 3px rgba(red, green, blue, alpha);
-
-} */
-
 input {
   display: flex;
   align-items: center;
